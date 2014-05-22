@@ -9,7 +9,7 @@ This project project sample files and instructions for sites who want to provide
 
 The sample files in this project describe the data feeds RED-I consumes and provides resources to assist target sites in making them and making them accessible to RED-I and the HCV-Target project.  
 
-See https://github.com/ctsit/redi for informaiton about RED-I.
+See https://github.com/ctsit/redi for information about RED-I.
 See http://www.hcvtarget.org/ for information about HCV-TARGET.
 
 ## Files
