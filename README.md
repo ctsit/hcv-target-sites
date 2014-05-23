@@ -7,7 +7,7 @@ Sample files and instructions for HCV Target sites providing electronic data fee
 
 This project provides sample files and instructions for sites who want to provide electronic data feeds to HCV-TARGET, the Hepatitis C Therapeutic Registry and Research Network.  HCV-TARGET receives data from participating sites and uses UF's RED-I to process and load the data into the REDCap instance that serves as the research data repository.
 
-The sample files in this project describe the data feeds RED-I consumes and provides resources to assist Target sites in making them accessible to RED-I and the HCV-Target project.  
+The sample files in this project describe the data feeds RED-I consumes and provides resources to assist Target sites in making those feeds accessible to RED-I and the HCV-Target project.  
 
 See https://github.com/ctsit/redi for information about RED-I.
 See http://www.hcvtarget.org/ for information about HCV-TARGET.
@@ -18,7 +18,7 @@ The files described here help define how to construct a query of the clinical da
 
 The query has three dimensions: what, who, and when.  The query must say what values of are of interest.  These are identified by LOINC or SNOMED codes.  The codes of interest are described in "HCV Target Data Dictionary.xlsx".  
 
-The query must say whose data is of interest using a clinical identifier.  Likewise the query needs a research identifier to use in the output data.  This unique research identifier allows this clinical data to be aligned with data in the REDCap system and allows the query to omit clinical identifiers.  This data has to be generated at the HCV Target site due to the clinical identifiers.  The file subjectMap.csv provides an example of the fields needed.  
+The query must say whose data is of interest using a clinical identifier.  Likewise the query needs a research identifier to use in the output data.  This unique research identifier allows this clinical data to be aligned with data in the REDCap system and allows the query to omit clinical identifiers.  This data is generated at the HCV Target site to prevent exposure of the clinical identifiers outside the site.  The file subjectMap.csv provides an example of the fields needed.  
 
 The query must indicate the time frame of interest for each person in the query.  As each person could have a different start and end date on the study, the date ranges must be per person.  The file subjectMap.csv provides an example of the fields needed in additon to the person identifiers already discussed.
 
