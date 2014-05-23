@@ -2,7 +2,7 @@
 
 Clinical data from an Epic Clarity system should conform to this specification.  The specification was designed to adhere to default Epic Clarity field names and data formats wherever possible.
 
-* All data will be returned in the UTF8 Character set
+* All data will be returned in the UTF-8 character set
 * The first row of the file will be a header row showing the name of each column, enclosed in double quotes and separated by commas. 
 * The field names in the header row will be those shown below.  The case of each column name should be that shown below.
 * Subsequent rows will show lab result values. All values will be enclosed in double quotes and separated by commas.
