@@ -1,3 +1,5 @@
+!!!! REMOVE THIS LINE : THIS IS A SAMPLE DATA SET THAT CONTAINS FICTICOUS DATA !!!!
+#### REMOVE THIS LINE ####
 "research_subject_id","start_date","end_date","mrn","facility_code" 
-"999-0059","2000-10-05","2014-04-30","59595959",""
-"999-0060","2002-10-03","2014-04-30","123456",""
+"999-0059","2000-10-05","1903-04-30","59595959",""
+"999-0060","2002-10-03","1903-04-30","123456",""
