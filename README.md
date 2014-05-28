@@ -35,3 +35,4 @@ This project is maintained by
 
   * Philip Chase <pbc@ufl.edu>
   * Nicholas Rejack <nrejack@ufl.edu>
+  * Christopher P. Barnes <cpb@ufl.edu>
