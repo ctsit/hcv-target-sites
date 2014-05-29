@@ -15,7 +15,5 @@ These fields may be specified in the data file:
     NAME                yes          Name of lab component
     COMPONENT_ID        yes          Numeric identifier of lab component
     ORD_VALUE           yes          Result value for lab component
-    REFERENCE_LOW       no           Lowest expected value for ORD_VALUE
-    REFERENCE_HIGH      no           Highest expected value for ORD_VALUE
     REFERENCE_UNIT      yes          Units for ORD_VALUE
-    SPECIMN_TAKEN_TIME  yes          Date and time specimen was taken from the patient/study subject. Date must be formatted as "YYYY-MM-DD HH:MM:SS".
+    DATE_TIME_STAMP     yes          Date and time specimen was taken from the patient/study subject. Date must be formatted as "YYYY-MM-DD HH:MM:SS".
