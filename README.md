@@ -16,11 +16,11 @@ See http://www.hcvtarget.org/ for information about HCV-TARGET.
 
 The files described here help define how to construct a query of the clinical data and how to format the output.  
 
-The query has three dimensions: what, who, and when.  The query must say what values of are of interest.  These are identified by LOINC or SNOMED codes.  The codes of interest are described in "HCV Target Data Dictionary.xlsx".  
+The query has three dimensions: what, who, and when.  The query must say _what_ values of are of interest.  These are identified by LOINC or SNOMED codes.  The codes of interest are described in "HCV Target Data Dictionary.xlsx".  
 
-The query must say whose data is of interest using a clinical identifier.  Likewise the query needs a research identifier to use in the output data.  This unique research identifier allows this clinical data to be aligned with data in the REDCap system and allows the query to omit clinical identifiers.  This data is generated at the HCV Target site to prevent exposure of the clinical identifiers outside the site.  The file subjectMap.csv provides an example of the fields needed.  
+The query must say _whose_ data is of interest using a clinical identifier.  Likewise the query needs a research identifier to use in the output data.  This unique research identifier allows this clinical data to be aligned with data in the REDCap system and allows the query to omit clinical identifiers.  This data is generated at the HCV Target site to prevent exposure of the clinical identifiers outside the site.  The file subjectMap.csv provides an example of the fields needed.  
 
-The query must indicate the time frame of interest for each person in the query.  As each person could have a different start and end date on the study, the date ranges must be per person.  The file subjectMap.csv provides an example of the fields needed in additon to the person identifiers already discussed.
+The query must indicate the _time frame_ of interest for each person in the query.  As each person could have a different start and end date on the study, the date ranges must be per person.  The file subjectMap.csv provides an example of the fields needed in additon to the person identifiers already discussed.
 
 Files in the project:
 
