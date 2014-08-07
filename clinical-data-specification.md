@@ -18,5 +18,5 @@ These fields may be specified in the data file:
     RESULT              yes          Result value for lab component
     REFERENCE_UNIT      yes          Units for ORD_VALUE
     DATE_TIME_STAMP     yes          Date and time specimen was taken from the patient/study subject. Date must be formatted as "YYYY-MM-DD HH:MM:SS". This corresponds to SNOMED SCTID: 399445004, "Specimen collection date (observable entity)."
-    RESULT_DATE			yes			  Date that result was reported by the laboratory. This corresponds to SNOMED SCTID: 399651003, "Date of report (observable entity)."
+    RESULT_DATE			yes			 Date that result was reported by the laboratory. This corresponds to SNOMED SCTID: 399651003, "Date of report (observable entity)."
     
