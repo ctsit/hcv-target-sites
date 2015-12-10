@@ -33,6 +33,9 @@ Files in the project:
 
 This project is maintained by 
 
+  * Christopher P. Barnes <cpb@ufl.edu
+  * Michael Buchholz <mbuchholz@ufl.edu>
   * Philip Chase <pbc@ufl.edu>
+  * Kevin Hanson <kshanson@ufl.edu>
   * Nicholas Rejack <nrejack@ufl.edu>
-  * Christopher P. Barnes <cpb@ufl.edu>
+  >
