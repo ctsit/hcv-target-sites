@@ -24,9 +24,25 @@ The query must indicate the _time frame_ of interest for each person in the quer
 
 Files in the project:
 
- * "HCV Target Data Dictionary.xlsx" - a modified REDCap data dictionary for the HCV-TARGET project showing which fields can be processed by REDI.  The tab labeled dataDictionaryforREDI provides a summary view of just what is needed by REDI to populate the forms it can handle.  For each such lab field the loinc_code, loinc_component, and loinc_long_common_name are provided to identify which lab components should be exported from the clinical record.  In some cases two or more LOINC codes are identified for a single REDCap field.  RED-I imports data identified by these LOINC codes into the corresponding REDCap field names.  This file describes what values need to be exported from the clinical record.
+ * "conmeds" is a directory that containts files that guide the creation of an export file for concurrent medication.
+ 
+ * "conmeds/medication-data-dictionary.xlsx" - 
+ 
+ * "conmeds/medication-sample-data.csv" - 
+ 
+ * "labs" is a directory that contains files that guide the creation of an export file for clinical lab data.
+ 
+ * "labs/clinical-data-dictionary.xlsx" - a modified REDCap data dictionary for the HCV-TARGET project showing which fields can be processed by REDI.  The tab labeled dataDictionaryforREDI provides a summary view of just what is needed by REDI to populate the forms it can handle.  For each such lab field the loinc_code, loinc_component, and loinc_long_common_name are provided to identify which lab components should be exported from the clinical record.  In some cases two or more LOINC codes are identified for a single REDCap field.  RED-I imports data identified by these LOINC codes into the corresponding REDCap field names.  This file describes what values need to be exported from the clinical record.
+ * "labs/clinical-data-specification.md" - a specification of the file format RED-I can consume. 
+
  * subject_map.csv - a sample input file to a clinical data query.  This file provides clinical identifiers for a person, the corresponding research identifiers and the date range of interest for each person.  This file provides the who and when dimensions to the query of the clinical record.  
- * clinical-data-specification.md - a specification of the file format RED-I can consume.  
+ 
+ * "RED-I Data Flow Diagram.graffle" - a diagram in the graffle drawing format that illustrates the transfer of data from a site to the data coordinating center for the HCV-TARGET study.
+ 
+ * "RED-I Data Flow Diagram.pdf" - a diagram in PDF format that illustrates the transfer of data from a site to the data coordinating center for the HCV-TARGET study.
+ 
+ * "REDI-2-REDCap-presentation.pdf" - a presentation in PDF format that provides a high level discussion of all the files, processes and steps necessary to on-board a site for electronic data extraction.
+ 
  * raw.txt - an example of the file format RED-I can consume.
 
 ## Maintainers
