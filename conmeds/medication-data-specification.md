@@ -22,3 +22,4 @@ These fields may be specified in the data file:
     MED_ORDER_ROUTE_FREQ_DESC       yes             Medication dose frequency         EVERY 4 HOURS
     RXNORM_CD                       no              RxNorm code                       8782
     MEDICATION_ID                   no              Local unique ID for medication    123456                  Use if RXNORM_CD not present.
+    STUDY_ID                        yes             ID of a person within a study     123-4567
