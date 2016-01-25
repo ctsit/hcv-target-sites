@@ -6,7 +6,7 @@ Concurrent medications data from an EHR should conform to this specification.
 * The data file needs to be named conmeds.txt for consistency.
 * The first row of the file will be a header row showing the name of each column, enclosed in double quotes and separated by commas. 
 * The field names in the header row are required, but the data they describe is required for REDI to load the data into REDCap. 
-* Subsequent rows will show lab result values. All values will be enclosed in double quotes and separated by commas.
+* Subsequent rows will show medication result values. All values will be enclosed in double quotes and separated by commas.
 * Each row will show one medication result value.  
 * Required fields may have blank values if data is missing.
 * If your institution does not have RXNORM_CD you may substitute a column with a local unique identifier.
